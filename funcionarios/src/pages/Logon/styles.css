@@ -4,63 +4,24 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.login-container {
-    width: 100%;
-    max-width: 1120px;
-    height: 100vh;
-    margin: 0 auto;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.login {
+  max-width: 100%;
   }
 
-  .login-container img{
-    width: 500px;
+  .login img{
+    width: 600px;
   }
-  
-  .login-container .content {
+
+  .login .form{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 25px 25px black;
     width: 100%;
-    padding: 96px;
-    background: #000000;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 40px;
   }
-  
-  .login-container .content section {
-    width: 100%;
-    max-width: 380px;
+
+  .login .button{
+    box-shadow: 4px 6px 10px rgb(168, 168, 168);
   }
+
   
-  .login-container .content section h1 {
-    margin: 64px 0 32px;
-    font-size: 32px;
-  }
-  
-  .login-container .content section p {
-    font-size: 18px;
-    color: #737380;
-    line-height: 32px;
-  }
-  
-  .login-container .content form {
-    width: 100%;
-    max-width: 450px;
-  }
-  
-  .login-container .content form input {
-    margin-top: 8px;
-  }
-  
-  .login-container .content form .input-group {
-    display: flex;
-  }
-  
-  .login-container .content form .input-group input + input {
-    margin-left: 8px;
-  }
